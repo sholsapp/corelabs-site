@@ -1,0 +1,13 @@
+<!-- Blog -->
+    <section id="blog">
+        <div class="container">
+            <div id="content">
+                <h1>Posts</h1>
+                {% for post in site.posts %}
+                <div>
+                  {{ post.date | date_to_string }} &mdash;<a href="{{ post.url }}">{{ post.title }}</a> &mdash; <i><span class="text-muted">{{ post.description }}</span></i>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

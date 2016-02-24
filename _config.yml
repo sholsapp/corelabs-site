@@ -1,5 +1,6 @@
 url: http://corelabs.io
 baseurl:
+permalink: /blog/:year/:month/:day/:title.html/
 
 # Site settings
 title: Core Labs
@@ -38,8 +39,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Mountain View, CA 94085
+  - line: Mountain View, CA
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+# permalink: pretty
