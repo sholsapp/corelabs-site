@@ -3,7 +3,7 @@ title: Interprocess communication
 author: Stephen Holsapple
 subtitle: Testing unix domain socket's memory usage
 layout: post
-date: 2016-03-02
+date: 2016-01-01
 img: startup-framework.png
 thumbnail: startup-framework-thumbnail.png
 alt: image-alt
